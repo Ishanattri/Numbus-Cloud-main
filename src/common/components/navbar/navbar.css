@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+.navbar_items,.btn{
+    animation: navbar_items 2s ease 1;
+}
+.logo_img{
+    animation: logo 2s ease 1;
+}
+.navbar_items li:after{
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.navbar_items li:hover:after{
+    width: 100%;
+    background: #3D52A0;
+  
+
+}
+
+/* @keyframes navbar {
+    0%{
+        border-bottom: 2px solid black;
+    }
+    50%{
+        border-bottom: 2px solid red;
+    }
+} */
+
+@keyframes navbar_items {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes logo {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

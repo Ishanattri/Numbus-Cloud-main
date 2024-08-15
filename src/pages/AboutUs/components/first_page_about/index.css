@@ -1,0 +1,34 @@
+.about_AFP{
+    /* background-image: url("../../assets/backgrounds/Slide\ 16_9\ -\ 3\ \(1\).png"); */
+}
+
+.about_text_1{
+    animation: text1 2s ease 1;
+}
+.about_text_2{
+    animation: text2 2s ease-in-out 1;
+
+}
+
+@keyframes text1 {
+    0% {
+      opacity: 0;
+      transform: translateY(-70px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes text2 {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

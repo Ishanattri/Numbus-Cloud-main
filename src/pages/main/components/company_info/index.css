@@ -1,0 +1,43 @@
+.ci_text_2{
+    animation: text22 2s ease-in-out 1 forwards;
+}
+
+.company_info_text_3{
+    animation: text23 2s ease-in-out 1 forwards;
+
+}
+
+@keyframes text22 {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+    50%{
+        opacity: 0.5;
+        /* transform: translateY(-50px); */
+        background-color: #bbdefb;
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+      background-color: #bbdefb;
+    }
+  }
+
+
+  @keyframes text23 {
+    0% {
+      opacity: 0;
+      transform: translateX(250px);
+    }
+    50%{
+        opacity: 0.5;
+        /* transform: translateY(-50px); */
+        /* background-color: #bbdefb; */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+      
+    }
+  }

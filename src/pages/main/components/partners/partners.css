@@ -1,0 +1,31 @@
+.company_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dis{
+    opacity: 0;
+    color: white;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.logo{
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo:hover{
+    transform: translateY(-20px);
+}
+
+.logo:hover +.dis{
+    opacity: 1;
+    transform: translateY(0);
+}
+.company_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
