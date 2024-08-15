@@ -1,7 +1,7 @@
 {
+  "homepage": "https://ishanattri.github.io/Numbus-Cloud-main",
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://Ishanattri.github.io/Numbus-Cloud-main",
   "private": true,
   "dependencies": {
     "@material-tailwind/react": "^2.1.9",
